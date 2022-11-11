@@ -1,0 +1,1112 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T04:11:01.256Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T04:11:07.388Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:13:21.005Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:14:19.280Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:14:26.740Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:14:59.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T04:19:14.748Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T04:19:23.410Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:20:32.026Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:21:08.080Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:21:13.279Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:21:20.881Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T04:21:22.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T04:31:26.717Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T04:31:35.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T04:35:46.502Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T04:35:46.528Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/636b2e6e13017b6e34ed8a85 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-11-09T04:52:28.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T05:02:10.426Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T05:02:10.458Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:02:41.107Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:02:41.124Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:02:43.741Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:02:43.750Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:02:47.082Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:02:47.085Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:02:49.280Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:02:49.284Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:02:53.065Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:02:53.069Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:02:54.867Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:02:54.870Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T05:03:27.776Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T05:03:27.812Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:03:28.843Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:03:28.863Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:03:31.273Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:03:31.277Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:03:38.569Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:03:38.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T05:05:00.987Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T05:05:01.006Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:06:18.628Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:06:18.645Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidhodhan" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:06:20.420Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:06:20.432Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:06:25.904Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sido" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:08:02.445Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:08:02.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T05:10:47.003Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T05:10:47.034Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sido" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:10:57.362Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:10:57.385Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sido" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:10:59.700Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:10:59.703Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sido" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:11:00.888Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:11:00.897Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: name_1 dup key: { name: "Sidho" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T05:11:21.165Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T05:11:21.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T10:11:41.506Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\awesome-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-09T10:12:11.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T10:12:50.609Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\awesome-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-09T10:13:20.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T10:16:55.029Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\awesome-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-09T10:17:25.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T10:18:23.150Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (E:\\express\\awesome-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (E:\\express\\awesome-project\\src\\config\\/database.js:12:20)\n    at tryCatch (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at E:\\express\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2022-11-09T10:18:53.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T10:28:54.914Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T10:28:54.941Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:01:47.535Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:01:47.555Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:05:18.074Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:05:26.282Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:05:34.505Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:06:30.072Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:06:30.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:09:11.619Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:09:11.646Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:09:18.722Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:09:18.749Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:09:27.764Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:09:36.030Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:09:36.033Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:09:46.435Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:09:46.443Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:09:47.895Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:09:47.898Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:10:13.074Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:10:20.503Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:10:20.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:11:01.317Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:11:01.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:11:12.562Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:11:12.593Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:11:33.835Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:11:33.854Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:11:36.488Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:11:36.493Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:11:44.453Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:11:44.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:12:27.276Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:12:27.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:12:35.591Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:12:35.620Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: demodb.users index: firstName_1 dup key: { firstName: null } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-11-09T11:12:41.577Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:314:11)
+    at ServerResponse.writeHead (E:\express\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:305:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (E:\express\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (E:\express\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (E:\express\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (E:\express\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (E:\express\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at E:\express\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\express\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (E:\express\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (E:\express\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:468:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:12:41.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:13:10.046Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:13:10.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:17:06.787Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:17:06.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:18:11.472Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:18:11.499Z"}
+error: 
+    status - 500 
+    message - ValidationError: "age" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:19:07.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:20:32.646Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:20:32.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:24:06.946Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:24:06.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:27:07.783Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:27:07.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:30:13.654Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:30:13.681Z"}
+error: 
+    status - 500 
+    message - ValidationError: "age" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:31:27.818Z"}
+error: 
+    status - 500 
+    message - ValidationError: "age" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:33:00.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:33:46.435Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:33:46.454Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:33:59.976Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:33:59.999Z"}
+error: 
+    status - 500 
+    message - ValidationError: "age" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:34:09.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:45:47.274Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:45:47.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:45:59.535Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:45:59.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:46:12.690Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:46:12.712Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:46:22.499Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:46:32.723Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:47:12.221Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 78
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:47:37.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:49:11.116Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:49:11.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:50:14.880Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:50:14.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:51:33.952Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:51:33.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:52:02.096Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:52:02.120Z"}
+error: 
+    status - 500 
+    message - ValidationError: "age" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:52:32.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:53:13.769Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:53:13.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T11:54:27.459Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T11:54:27.484Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 69
+    at JSON.parse (<anonymous>)
+    at parse (E:\express\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at E:\express\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\express\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (E:\express\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\express\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:54:39.565Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:54:45.487Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T11:58:13.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:00:58.963Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:00:58.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:01:32.975Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:01:33.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:03:12.681Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:03:12.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:03:48.535Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:03:48.570Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be larger than or equal to 1000000000 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T12:03:55.179Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:04:16.491Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:04:16.516Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:04:30.496Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:04:30.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:05:36.263Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:05:36.283Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:07:10.137Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:07:10.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:14:38.100Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:14:38.132Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be larger than or equal to 2 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T12:14:48.308Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be less than or equal to 5 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T12:15:09.986Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be less than or equal to 5 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T12:15:17.942Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be less than or equal to 5 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T12:15:33.031Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:16:40.544Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:16:40.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:19:14.529Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:19:14.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:20:22.916Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:20:22.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-11-09T12:22:19.416Z"}
+info: Connected to the database. {"timestamp":"2022-11-09T12:22:19.444Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be larger than or equal to 10000 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-11-09T12:22:28.215Z"}

@@ -1,0 +1,18 @@
+info: ::1 - - [11/Nov/2022:02:54:47 +0000] "GET /api/v1/users HTTP/1.1" 500 93 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:02:57:51 +0000] "POST /api/v1/users HTTP/1.1" 201 277 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:02:58:29 +0000] "POST /api/v1/users HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:02:58:33 +0000] "POST /api/v1/users HTTP/1.1" 201 281 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:02:58:40 +0000] "GET /api/v1/users HTTP/1.1" 200 732 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:03:02:22 +0000] "PUT /api/v1/users/636dba5518a97f3d147841eb HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:03:02:34 +0000] "PUT /api/v1/users/update/636dba5518a97f3d147841eb HTTP/1.1" 202 279 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:03:02:54 +0000] "GET /api/v1/users HTTP/1.1" 200 730 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [11/Nov/2022:07:51:42 +0000] "GET /api/v1/users HTTP/1.1" 200 730 "-" "PostmanRuntime/7.29.2"
+

@@ -1,0 +1,232 @@
+info: ::1 - - [09/Nov/2022:04:11:30 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:04:11:31 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:04:11:32 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:04:12:20 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:12:41 +0000] "GET /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:12:49 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:12:52 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:13:21 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:14:19 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:14:26 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:14:59 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:20:32 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:21:08 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:21:13 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:21:20 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:21:22 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:24:21 +0000] "POST /api/v1/users HTTP/1.1" 201 197 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:24:24 +0000] "POST /api/v1/users HTTP/1.1" 201 197 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:27:28 +0000] "GET /api/v1/users HTTP/1.1" 200 52272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:36:55 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:37:02 +0000] "POST /api/v1/users HTTP/1.1" 201 197 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:43:16 +0000] "GET /api/v1/users?_id=636b2e6e13017b6e34ed8a85 HTTP/1.1" 200 204 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:46:28 +0000] "GET /api/v1/users?_id=636b2e6e13017b6e34ed8a85 HTTP/1.1" 200 204 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:04:49:03 +0000] "GET /api/v1/user HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:04:49:06 +0000] "GET /api/v1/user HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:04:49:08 +0000] "GET /api/v1/user HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:04:49:15 +0000] "GET /api/v1/users HTTP/1.1" 200 204 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:04:52:28 +0000] "GET /api/v1/users/636b2e6e13017b6e34ed8a85 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:02:30 +0000] "POST /api/v1/users/636b2e6e13017b6e34ed8a85 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:02:41 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:02:43 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:02:47 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:02:49 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:02:53 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:02:54 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:03:28 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:03:31 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:03:38 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:06:18 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:06:20 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:06:25 +0000] "POST /api/v1/users HTTP/1.1" 500 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:06:44 +0000] "POST /api/v1/users HTTP/1.1" 201 192 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:08:02 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:10:57 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:10:59 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:11:00 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:11:17 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:05:11:21 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:02:38 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:03:20 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:11:03:20 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:11:03:20 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:11:03:26 +0000] "GET /api/v1/users HTTP/1.1" 200 200 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Nov/2022:11:05:18 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:05:26 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:05:34 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:05:41 +0000] "POST /api/v1/users HTTP/1.1" 201 197 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:06:56 +0000] "POST /api/v1/users HTTP/1.1" 201 197 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:08:18 +0000] "GET /api/v1/users HTTP/1.1" 200 204 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:09:18 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:09:27 +0000] "POST /api/v1/users HTTP/1.1" 500 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:09:36 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:09:46 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:09:47 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:10:13 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:10:20 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:11:33 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:11:36 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:11:44 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:12:41 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:13:34 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:13:38 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:13:39 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:18:16 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:18:32 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:19:07 +0000] "POST /api/v1/users HTTP/1.1" 500 57 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:20:37 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:24:14 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:27:14 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:30:17 +0000] "POST /api/v1/users HTTP/1.1" 201 204 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:31:27 +0000] "POST /api/v1/users HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:33:00 +0000] "POST /api/v1/users HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:34:09 +0000] "POST /api/v1/users HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:46:22 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:46:32 +0000] "POST /api/v1/users HTTP/1.1" 500 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:47:12 +0000] "POST /api/v1/users HTTP/1.1" 500 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:47:20 +0000] "POST /api/v1/users HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:47:55 +0000] "POST /api/v1/users HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:49:15 +0000] "POST /api/v1/users HTTP/1.1" 201 231 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:49:22 +0000] "POST /api/v1/users HTTP/1.1" 201 230 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:49:47 +0000] "POST /api/v1/users HTTP/1.1" 201 230 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:50:29 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:51:20 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:51:22 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:52:08 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:52:32 +0000] "POST /api/v1/users HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:53:16 +0000] "POST /api/v1/users HTTP/1.1" 201 239 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:53:35 +0000] "POST /api/v1/users HTTP/1.1" 201 236 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:54:45 +0000] "POST /api/v1/users HTTP/1.1" 500 59 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:55:06 +0000] "POST /api/v1/users HTTP/1.1" 201 241 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:57:06 +0000] "POST /api/v1/users HTTP/1.1" 201 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:11:58:13 +0000] "POST /api/v1/users HTTP/1.1" 500 89 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:01:01 +0000] "POST /api/v1/users HTTP/1.1" 201 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:01:48 +0000] "POST /api/v1/users HTTP/1.1" 201 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:03:55 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:04:45 +0000] "POST /api/v1/users HTTP/1.1" 201 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:07:27 +0000] "POST /api/v1/users HTTP/1.1" 201 238 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:14:48 +0000] "POST /api/v1/users HTTP/1.1" 500 81 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:15:09 +0000] "POST /api/v1/users HTTP/1.1" 500 79 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:15:17 +0000] "POST /api/v1/users HTTP/1.1" 500 79 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:15:33 +0000] "POST /api/v1/users HTTP/1.1" 500 79 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:15:47 +0000] "POST /api/v1/users HTTP/1.1" 201 235 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:16:09 +0000] "POST /api/v1/users HTTP/1.1" 201 235 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:20:31 +0000] "POST /api/v1/users HTTP/1.1" 201 235 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:22:28 +0000] "POST /api/v1/users HTTP/1.1" 500 85 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [09/Nov/2022:12:22:39 +0000] "POST /api/v1/users HTTP/1.1" 201 242 "-" "PostmanRuntime/7.29.2"
+
